@@ -1,18 +1,13 @@
-import requests
-import json
+from transformers import pipeline
 
-url = "https://language.googleapis.com/v1/documents:analyzeSentiment?key=SUA_CHAVE_DE_API"
-headers = {
-    "Content-Type": "application/json",
-}
+# Criar uma pipeline de análise de sentimentos
+sentiment_analysis = pipeline("sentiment-analysis")
 
-payload = {
-    "document": {
-        "type": "PLAIN_TEXT",
-        "content": "I am very happy with the service!"
-    },
-    "encodingType": "UTF8"
-}
+# Texto a ser analisado
+text = "I am very happy with the service!"
 
-response = requests.post(url, headers=headers, json=payload)
-print(response.json())
+# Analisar o sentimento do texto
+result = sentiment_analysis(text)
+
+# Imprimir o resultado
+print(result)
