@@ -1,28 +1,22 @@
-# PonderadaS9
+# Ferramentas de NLP no Microsoft Azure
 
-# Levantamento de Ferramentas de NLP - Google Cloud Platform (GCP)
+## Azure Text Analytics
+**Descrição**: Azure Text Analytics é uma parte dos Azure Cognitive Services que oferece recursos avançados de processamento de texto, como detecção de idioma, análise de sentimentos e extração de frases-chave.
+**Exemplo de Aplicação**: Pode ser usado para analisar o feedback dos clientes sobre produtos e serviços, identificando tendências comuns e pontos de preocupação com base nos sentimentos expressos nos textos.
 
-## 1. Cloud Natural Language API
-**Descrição:** Serviço que oferece uma compreensão natural do texto. Ele pode ser usado para análise de sentimentos, extração de entidades, análise de sintaxe e classificação de conteúdo.
-**Exemplo de Aplicação:** Análise de sentimentos em comentários de clientes para determinar se a percepção geral do produto é positiva, negativa ou neutra.
-**Documentação:** [Cloud Natural Language API](https://cloud.google.com/natural-language)
+## Translator Text API
+**Descrição**: Este serviço oferece tradução de texto automática e suporta mais de 60 idiomas, facilitando a comunicação global.
+**Exemplo de Aplicação**: Ideal para empresas multinacionais que precisam traduzir e-mails de negócios e comunicações internas para garantir que todos os funcionários, independentemente do idioma, entendam as informações.
 
-## 2. Cloud Translation API
-**Descrição:** Serviço que oferece tradução automática para mais de 100 idiomas.
-**Exemplo de Aplicação:** Tradução de conteúdo de um site para diferentes idiomas para alcançar um público global.
-**Documentação:** [Cloud Translation API](https://cloud.google.com/translate)
+## Azure Bot Service
+**Descrição**: Permite construir, testar e implantar bots inteligentes que podem ser integrados a várias plataformas e serviços.
+**Exemplo de Aplicação**: Pode ser utilizado para desenvolver bots de atendimento ao cliente que automatizam tarefas como reservas, fornecimento de informações de produtos e assistência técnica.
 
-## 3. Cloud Speech-to-Text API
-**Descrição:** Serviço que converte áudio em texto utilizando modelos de machine learning.
-**Exemplo de Aplicação:** Transcrição de gravações de reuniões ou chamadas telefônicas para análise posterior.
-**Documentação:** [Cloud Speech-to-Text API](https://cloud.google.com/speech-to-text)
+## Azure Cognitive Language Services
+**Descrição**: Conjunto de APIs que ajudam a compreender e analisar o conteúdo de texto, incluindo a capacidade de identificar a intenção do usuário e extrair informações pertinentes.
+**Exemplo de Aplicação**: Útil para assistentes virtuais que necessitam compreender as intenções dos usuários a partir de suas consultas em linguagem natural e responder de forma adequada.
 
-## 4. Cloud Text-to-Speech API
-**Descrição:** Serviço que converte texto em fala natural utilizando modelos de deep learning.
-**Exemplo de Aplicação:** Geração de respostas faladas em assistentes virtuais e sistemas de atendimento ao cliente automatizados.
-**Documentação:** [Cloud Text-to-Speech API](https://cloud.google.com/text-to-speech)
+## Azure Immersive Reader
+**Descrição**: Ferramenta projetada para ajudar a melhorar a leitura e a compreensão de textos, oferecendo funcionalidades como leitura em voz alta, ajustes de texto e divisão por sílabas.
+**Exemplo de Aplicação**: Ideal para plataformas educacionais que desejam oferecer suporte adicional a alunos com dificuldades de leitura ou aprendizes de uma segunda língua.
 
-## 5. Dialogflow
-**Descrição:** Plataforma para criação de interfaces de conversação utilizando voz e texto.
-**Exemplo de Aplicação:** Desenvolvimento de chatbots para atendimento ao cliente em diversos canais, como sites, aplicativos móveis e plataformas de mensagens.
-**Documentação:** [Dialogflow](https://cloud.google.com/dialogflow)
